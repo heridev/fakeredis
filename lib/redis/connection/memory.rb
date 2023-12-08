@@ -17,7 +17,6 @@ class Redis
     DEFAULT_REDIS_VERSION = '5.0.8'
 
     class Memory
-      include Redis::Connection::CommandHelper
       include FakeRedis
       include SortMethod
       include TransactionCommands
