@@ -1,6 +1,6 @@
 require 'set'
-require 'redis/connection/registry'
-require 'redis/connection/command_helper'
+# require 'redis/connection/registry'
+# require 'redis/connection/command_helper'
 require "fakeredis/command_executor"
 require "fakeredis/expiring_hash"
 require "fakeredis/sort_method"
